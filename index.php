@@ -39,8 +39,8 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-secondary mr-sm-2">Register</button>
-                <button class="btn btn-secondary my-2 my-sm-0">Login</button>
+                <a href="" class="btn btn-secondary mr-sm-2">Register</a>
+                <a href="login/Login.html" class="btn btn-secondary my-2 my-sm-0">Login</a>
             </form>
         </div>
     </nav>
