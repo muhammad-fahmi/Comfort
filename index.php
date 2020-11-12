@@ -16,7 +16,7 @@
 <body id="section1">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="http://localhost/Comfort/">
-            <img src="img/logo.png" width="150px" height="90px">
+            Comfort
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,6 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <a href="" class="btn btn-secondary link-button mr-sm-2">Register</a>
                 <a href="login/Login.html" class="btn btn-secondary my-2 my-sm-0">Login</a>
             </form>
         </div>

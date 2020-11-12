@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face
+
+/*perintah untuk memanggil font eksternal*/
+    {
+    font-family: 'Cattalonia';
+    /*memberikan nama bebas untuk font*/
+    src: url('font/Cattalonia.otf');
+    /*memanggil file font eksternalnya di folder nexa*/
+}
+
+a.navbar-brand {
+    font-family: Cattalonia, serif;
+}
+
 * {
     padding: 0;
     margin: 0;
