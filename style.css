@@ -1,33 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@font-face
-
-/*perintah untuk memanggil font eksternal*/
-    {
-    font-family: 'Cattalonia';
-    /*memberikan nama bebas untuk font*/
-    src: url('font/Cattalonia.otf');
-    /*memanggil file font eksternalnya di folder nexa*/
-}
-
-a.navbar-brand {
-    font-family: Cattalonia, serif;
-}
-
-* {
+*{
     padding: 0;
     margin: 0;
 }
 
+.block {
+    width: 100%;
+    height: 100%;
+}
 html {
     scroll-behavior: smooth;
-}
+  }
 
-div.contain {
+div.contain{
     padding: 4em 1em;
 }
 
-div.contain>.main {
+div.contain>.main{
     width: 600px;
     float: left;
     margin-top: 20px;
@@ -48,9 +38,66 @@ nav>div>ul>li>a.register {
 
 .tales {
     width: 100%;
-    height: 491px;
+    max-height: 100%;
+    height: 100%;
 }
 
-.clear {
+.clear{
     clear: both;
 }
+
+/*Collection*/
+
+.collection-container {
+    row-gap: 5rem;
+}
+
+.collection-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    background-color: grey;
+    transition: .5s;
+}
+
+.collection-box:hover {
+    transform: translateY(-.5rem);
+}
+
+.collection-img {
+    width: 10px;
+    height: 50px;
+}
+
+.collection-title {
+    font-size: var(--h1-font-size);
+    line-height: 1.2;
+    margin-bottom: var(--mb-2);
+    text-transform: uppercase;
+    font-weight: var(--font-semi);
+}
+
+.collection-subtitle {
+    font size: var(--h2-font-size);
+    color: var(--dark-color-light);
+}
+
+.collection-view {
+    font-size: var(--small-font-size);
+    color: whitesmoke;
+}
+
+.collection-view:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
