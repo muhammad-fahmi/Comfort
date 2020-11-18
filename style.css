@@ -17,13 +17,6 @@ div.contain{
     padding: 4em 1em;
 }
 
-div.contain>.main{
-    width: 600px;
-    float: left;
-    margin-top: 20px;
-    text-align: justify;
-}
-
 .car {
     top: 116px;
 }
@@ -61,7 +54,7 @@ h3 {
 /*Collection*/
 
 .collection-container {
-    row-gap: 5rem;
+    row-gap: 10rem;
 }
 
 .collection-box {
@@ -71,7 +64,7 @@ h3 {
     align-items: center;
     padding: 100px 1.5rem;
     background-color: grey;
-    transition: .5s;
+    transition: 2s;
 }
 
 .collection-box:hover {
@@ -83,7 +76,7 @@ h3 {
     height: 50px;
 }
 
-.collection-title {
+.collection-title{
     font-size: var(--h1-font-size);
     line-height: 1.2;
     margin-bottom: var(--mb-2);
@@ -105,8 +98,24 @@ h3 {
     text-decoration: underline;
 }
 
+/* about us  */
 
+div.contain>.about{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+	animation-delay: .8s;
+	animation: text 5s 1;
+}
 
+@keyframes text {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
 
