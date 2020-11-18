@@ -55,16 +55,16 @@
             <div class="carousel-item active">
                 <img src="img/cowo cewe.jpg" class="d-block w-100 tales" alt="Artboard 1">
                 <div class="carousel-caption d-none d-md-block" id="artboard1">
-                    <h3>Men and Women Apparel<br>Get it now and get 25% discount<br>
-                        <a href="#" class="btn-get-started animated fadeInUp scrollto">Purchase</a></h3>
+					<h3>Men and Women Apparel<br>Get it now and get 25% discount<br></h3>
+                        <h3><a href="#" class="btn-get-started animated fadeInUp scrollto">Purchase</a></h3>
 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/cewe.jpg" class="d-block w-100 tales" alt="Artboard 2">
                 <div class="carousel-caption d-none d-md-block" style="text-align: right">
-                    <h1>November Deals<br>Women Top<br>Buy 2 get 1</h1>
-
+                    <h1>November Deals<br>Women Top<br>Buy 2 get 1<br><a href="#" class="btn-get-started animated fadeInUp scrollto">Purchase</a></h1>
+						
 
 
                 </div>
@@ -73,7 +73,8 @@
                 <img src="img/cowo.jpg" class="d-block w-100 tales" alt="Artboard 3.png">
                 <div class="carousel-caption d-none d-md-block" style="color: white">
 
-                    <h2>Men Apparel November<br>Discount up to 60%</h2>
+                    <h2>Men Apparel November<br>Discount up to 60%<br><a href="#" class="btn-get-started animated fadeInUp scrollto">Purchase</a></h2>
+						
                 </div>
             </div>
         </div>
