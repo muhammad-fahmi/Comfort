@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/cowo.jpg" class="d-block w-100 tales" alt="Artboard 3.png">
+                <img src="img/cowo.jpg" class="d-block w-100 tales" alt="Artboard 3">
                 <div class="carousel-caption d-none d-md-block" style="color: white">
 
                     <h2>Men Apparel November<br>Discount up to 60%<br><a href="#" class="btn-get-started animated fadeInUp scrollto">Purchase</a></h2>
@@ -114,8 +114,10 @@
     
 
     <div class="contain">
-        <div class="main">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolorum quidem totam. Autem quisquam eligendi repellat obcaecati facilis commodi accusamus id? Distinctio eligendi expedita veniam sed fugit modi perferendis nemo, dolor explicabo amet fugiat officia iste blanditiis in cupiditate enim autem deserunt, aliquid dolorum quam repellat tenetur dolores. Doloribus amet ducimus ullam necessitatibus tenetur veniam quas obcaecati. Recusandae odit iste ut et saepe amet officiis similique, cumque mollitia exercitationem quas molestias ad quam accusamus, pariatur, laudantium rem. Atque sint porro dignissimos sapiente deleniti beatae. Enim, officia cupiditate, perferendis similique consectetur modi aperiam quas sed nisi consequuntur placeat veritatis obcaecati odio qui dolore! Expedita, recusandae. Nobis, reprehenderit. Quod hic eos eum mollitia error, quam voluptatum, iusto perferendis esse dicta amet consequatur cupiditate tempora laboriosam maxime facilis facere quas, deserunt deleniti maiores autem asperiores minus est sapiente. Cupiditate rem consequuntur ipsam expedita vel quae corporis iusto, et laboriosam maiores quisquam porro, sed, dicta fuga voluptatum? Quos neque libero id repudiandae itaque facilis alias, nulla eos, dicta repellendus aspernatur est architecto dolores sunt odio ad perspiciatis? Soluta impedit aliquid odit obcaecati natus consequuntur cumque. Pariatur laboriosam impedit quod rerum excepturi atque labore eveniet asperiores, nostrum iure soluta blanditiis! Laudantium odit ducimus harum incidunt?
+        <div class="about">
+            <h4>About Us</h4>
+			<p>
+				Comfort is a brand from 3 man from Indonesia who want a nice, trendy, and cheap apparel but with High Quality Fabric for <br>Comfort come with Men and Women Apparel thats other mainstream online clothing shop doesn't have<br>We believe that people who wear comfort apparel they will got comfort and feel happy everyday</p>
         </div>
     </div>
     <div class="clear"></div>
