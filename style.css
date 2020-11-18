@@ -46,6 +46,18 @@ nav>div>ul>li>a.register {
     clear: both;
 }
 
+#artboard1 {
+	padding-bottom: 500px;
+	padding-right: 25px;
+}
+
+h3 {
+	text-align: left;
+	color: black;
+}
+
+
+
 /*Collection*/
 
 .collection-container {
@@ -57,7 +69,7 @@ nav>div>ul>li>a.register {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 2rem 1.5rem;
+    padding: 100px 1.5rem;
     background-color: grey;
     transition: .5s;
 }
