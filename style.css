@@ -2,3 +2,49 @@
   font-family: "coba";
   src: url("font/Overlock-BoldItalic.ttf");
 }
+
+nav>a.navbar-brand {
+  font-family: coba;
+  font-variant: small-caps;
+}
+
+.view {
+  height: 80vh;
+}
+
+.nav-link {
+  font-variant: small-caps;
+  font-family: coba;
+}
+
+.center {
+  width: fit-content;
+  margin: 0 0 0 390px;
+}
+
+.text-1 {
+  margin: 0 0 200px 400px;
+  font-family: coba;
+}
+
+.text-2 {
+  color: black;
+  z-index: 0;
+  margin: 0 0 160px -700px;
+  font-family: coba;
+}
+
+.text-3 {
+  color: black;
+  z-index: 0;
+  margin: 0 0 100px 700px;
+  font-family: coba;
+}
+
+.char-3 {
+  font-size: 32px;
+}
+
+.purchase-3 {
+  font-size: 23px;
+}
