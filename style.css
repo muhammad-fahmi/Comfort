@@ -127,6 +127,10 @@ section img {
   width: 100%;
 }
 
+.collection-box:hover {
+  transform: translateY(-.5rem);
+}
+
 .img-container {
   padding-top: 10px;
   position: relative;
@@ -250,7 +254,8 @@ section img {
 div.contain>.about{
   width: 100%;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 75px;
+  padding-bottom: 55px;
   animation-delay: .8s;
   animation: text 5s 1;
 }
@@ -264,8 +269,14 @@ div.contain>.about{
 }
 }
 
+.page-footer {
+  margin: 0;
+  background-color: #2b2b2b;
+}
 
-
+.footer-copyright {
+  color: white
+}
 
 
 
