@@ -83,7 +83,16 @@
     </div>
     <div class="clear"></div>
 
+    <!-- Footer -->
+<footer class="page-footer">
+    <div class="container">
+      <!-- Social Buttons -->
 
+      <!-- Social buttons -->
+  
+    </div>
+    <div class="footer-copyright text-center py-3">©Comfort 2020 Copyright</div>
+  </footer>
 
 
     <script src="jquery/jquery-3.5.1.min.js"></script>
