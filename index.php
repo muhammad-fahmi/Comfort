@@ -36,7 +36,7 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" method="post" action="login/index.html">
+            <form class="form-inline my-2 my-lg-0" method="post" action="login/index.php">
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
             </form>
         </div>

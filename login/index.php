@@ -1,3 +1,10 @@
+<?php
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +33,8 @@
                 <a href="#">
                     <legend id="forgot-pass">Forgot password?</legend>
                 </a>
-                <input id="submit-btn" type="submit" name="submit" value="LOGIN" /><a href="#" id="signup">Don't have
+                <input id="submit-btn" type="submit" name="submit" value="LOGIN" /><a href="../register/index.php"
+                    id="signup">Don't have
                     account yet?</a>
             </form>
         </div>

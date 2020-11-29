@@ -15,7 +15,7 @@ class database
 
 	function register($username, $password, $nama)
 	{
-		$insert = mysqli_query($this->koneksi, "insert into tb_user values ('','$username','$password','$nama')");
+		$insert = mysqli_query($this->koneksi, "insert into tb_customer values ('','$username','$password','$nama')");
 		return $insert;
 	}
 
