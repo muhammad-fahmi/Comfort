@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style-index.css">
     <title>Landing Page</title>
 </head>
@@ -20,19 +20,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active px-2">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="product/Product.php">Products</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" method="post" action="login/index.php">
+            <form class="form-inline my-2 my-lg-0" method="post" action="/login/index.php">
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
             </form>
         </div>
@@ -96,9 +96,8 @@
     </footer>
 
 
-    <script src="jquery/jquery-3.5.1.min.js"></script>
-    <script src="main.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
