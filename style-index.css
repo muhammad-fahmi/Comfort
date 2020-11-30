@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Overlock";
+    src: url("font/Overlock-BoldItalic.ttf");
+}
+
+.nav-link {
+    font-variant: small-caps;
+    font-family: Overlock;
+}
+
+nav div form button {
+    font-family: Overlock;
+}
+
+.carousel-item {
+    margin-top: 70px;
+    height: 80vh;
+}
+
+.carousel-caption {
+    z-index: 0;
+}
+
+.carousel-caption .text-1 {
+    margin: 0 0 10rem 23.12rem;
+    letter-spacing: 2px;
+}
+
+.carousel-caption .text-1 a.btn {
+    padding: 0 1.25rem;
+}
+
+.carousel-caption .text-2 {
+    color: black;
+    margin: 0 0 10rem -47rem;
+    letter-spacing: 2px;
+}
+
+.carousel-caption .text-2 a.btn {
+    padding: 0 1.25rem;
+}
+
+.carousel-caption .text-3 {
+    color: black;
+    margin: 0 0 10rem 46rem;
+    letter-spacing: 4px;
+}
+
+.carousel-caption .text-3 a.btn {
+    padding: 0 1.25rem;
+}
