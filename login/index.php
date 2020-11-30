@@ -1,10 +1,16 @@
 <?php
-
-
+include_once('db_connect.php');
+$database = new database();
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $nama = $_POST['nama'];
+    if ($database->register($username, $password, $nama)) {
+        header('location:login.php');
+    }
+}
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +29,7 @@
                 <h2>LOGIN</h2>
                 <div class="underline-title"></div>
             </div>
-            <form method="post" class="form" name="formInput" onsubmit="validasiEmail();">
+            <form method="POST" class="form" name="formInput" onsubmit="validasiEmail();">
                 <label for="user-email" style="padding-top:13px">&nbsp;Email</label>
                 <input id="user-email" class="form-content" type="text" name="email" autocomplete="off" required />
                 <div class="form-border"></div>
@@ -33,8 +39,8 @@
                 <a href="#">
                     <legend id="forgot-pass">Forgot password?</legend>
                 </a>
-                <input id="submit-btn" type="submit" name="submit" value="LOGIN" /><a href="../register/index.php"
-                    id="signup">Don't have
+                <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+                <a href="../register/index.php" id="signup">Don't have
                     account yet?</a>
             </form>
         </div>
