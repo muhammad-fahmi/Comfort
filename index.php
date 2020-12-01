@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style-index.css">
     <title>Landing Page</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#"><img src="img/comfort-logo.png" width="100px"></a>
+        <a class="navbar-brand" href="#"><img src="assets/img/comfort-logo.png" width="100px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,21 +42,21 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./img/gambar-carousel-1.jpg" class="d-block w-100" alt="gambar-carousel-1">
+                <img src="assets/img/gambar-carousel-1.jpg" class="d-block w-100" alt="gambar-carousel-1">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="text-1">Men Apparel November<br>Discount up to 60%<br><br><a href="#"
                             class="btn btn-outline-light">Purchase</a></h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./img/gambar-carousel-2.jpg" class="d-block w-100" alt="gambar-carousel-2">
+                <img src="assets/img/gambar-carousel-2.jpg" class="d-block w-100" alt="gambar-carousel-2">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="text-2">Men and Women Apparel<br>Get it now and get 25% discount<br><br><a href="#"
                             class="btn btn-outline-dark">Purchase</a></h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./img/gambar-carousel-3.jpg" class="d-block w-100" alt="gambar-carousel-3">
+                <img src="assets/img/gambar-carousel-3.jpg" class="d-block w-100" alt="gambar-carousel-3">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="text-3">November Deals<br>Women Top<br>Buy 2 get 1<br><br><a href="#"
                             class="btn btn-outline-dark">Purchase</a></h5>
@@ -96,8 +97,12 @@
     </footer>
 
 
-    <script src="assets/jquery/jquery-3.5.1.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
