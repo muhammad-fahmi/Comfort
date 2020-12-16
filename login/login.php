@@ -1,3 +1,8 @@
+<?php 
+session_start();
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +36,7 @@
                 </div>
 
                 <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
-                <a href="../register/index.php" id="signup">Don't have account yet?</a>
+                <a href="../register/register.php" id="signup">Don't have account yet?</a>
             </form>
         </div>
     </div>
