@@ -1,3 +1,22 @@
+<?php
+require "../functions.php";
+if (isset($_POST['register'])) {
+
+    if (daftar($_POST) > 0) {
+        echo "<script>
+            alert('user baru berhasi ditambahkan!');
+        </script>";
+        echo "<script>
+        window.location.href = '../login/login.php';
+        </script>";
+    } else {
+        echo mysqli_error($conn);
+    }
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +35,7 @@
                 <h2>REGISTER</h2>
                 <div class="underline-title"></div>
             </div>
-            <form method="POST" class="form" name="formInput" onsubmit="validasiEmail();">
+            <form method="POST" class="form" name="formInput">
                 <label for="user-username" style="padding-top:13px">&nbsp;Username</label>
                 <input id="user-username" class="form-content" type="text" name="username" autocomplete="off" required />
                 <div class="form-border"></div>

@@ -25,7 +25,7 @@
                     <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="product/Product.php">Products</a>
+                    <a class="nav-link" href="product/index.php">Products</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="#">Contact</a>
