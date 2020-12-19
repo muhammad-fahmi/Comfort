@@ -21,7 +21,7 @@ unset($_SESSION['qty_array']);
 
 <head>
     <meta charset="utf-8">
-    <title>Simple Shopping Cart using Session in PHP</title>
+    <title>Product</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <style>
         .product_image {
@@ -53,7 +53,7 @@ unset($_SESSION['qty_array']);
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Simple Shopping Cart</a>
+                    <a class="navbar-brand" href="../index.php">Comfort</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
