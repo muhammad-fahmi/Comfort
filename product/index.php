@@ -68,7 +68,9 @@ unset($_SESSION['qty_array']);
                 </div>
             </div>
         </nav>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form_modal"><span class="glyphicon glyphicon-plus"></span> Add Product</button>
+        <?php if (isset($_SESSION["admin"])) : ?>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form_modal"><span class="glyphicon glyphicon-plus"></span> Add Product</button>
+        <?php endif ?>
         <p />
         <?php
         //info message

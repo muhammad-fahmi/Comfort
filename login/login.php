@@ -7,7 +7,9 @@ if (isset($_POST["submit"])) {
     $email = $_POST["email"];
     $password = $_POST["password"];
 
+
     $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE email = '$email'");
+
 
     // set session
     $_SESSION['login'] = 'true';
@@ -18,6 +20,9 @@ if (isset($_POST["submit"])) {
         // cek password
         $row = mysqli_fetch_assoc($result);
         if (password_verify($password, $row["password"])) {
+            if ($row['role'] == 'admin') {
+                $_SESSION["admin"] = 'true';
+            }
             header("Location: ../index.php");
             exit;
         }

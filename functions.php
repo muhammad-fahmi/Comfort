@@ -9,6 +9,11 @@ function daftar($data)
 
     $email = stripslashes($data["email"]);
     $password = mysqli_real_escape_string($conn, $data["password"]);
+    if ($email == "admin@gmail.com") {
+        $user = "admin";
+    } else {
+        $user = "user";
+    }
 
     // cek user sudah ada atau belum
     $result = mysqli_query($conn, "SELECT email FROM tb_user WHERE email = '$email'");
@@ -25,7 +30,7 @@ function daftar($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     // tambahkan userbaru ke database
-    mysqli_query($conn, "INSERT INTO tb_user VALUES ('','$email','','$password','','','')");
+    mysqli_query($conn, "INSERT INTO tb_user VALUES ('','$email','','$password','','','$user')");
 
     return mysqli_affected_rows($conn);
 }
