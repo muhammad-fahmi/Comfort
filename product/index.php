@@ -1,5 +1,11 @@
 <?php
 session_start();
+// cek apakah sudah login atau belum
+if (!isset($_SESSION['login'])) {
+    header("Location: ../index.php");
+    exit;
+}
+
 //initialize cart if not set or is unset
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = array();
@@ -7,6 +13,8 @@ if (!isset($_SESSION['cart'])) {
 
 //unset quantity
 unset($_SESSION['qty_array']);
+
+
 ?>
 <!DOCTYPE html>
 <html>

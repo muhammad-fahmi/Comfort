@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,13 +35,19 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" method="post" action="login/login.php">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
-            </form>
+            <?php if (!isset($_SESSION['login'])) : ?>
+                <form class="form-inline my-2 my-lg-0" method="post" action="login/login.php">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            <?php else : ?>
+                <form class="form-inline my-2 my-lg-0" method="post" action="logout/logout.php">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Logout</button>
+                </form>
+            <?php endif ?>
         </div>
     </nav>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/gambar-carousel-1.jpg" class="d-block w-100" alt="gambar-carousel-1">
@@ -61,11 +71,11 @@
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -84,7 +94,6 @@
                 happy everyday</p>
         </div>
     </div>
-    <div class="clear"></div>
 
     <!-- Footer -->
     <footer class="page-footer">
@@ -99,10 +108,8 @@
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>

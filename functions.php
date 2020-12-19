@@ -7,11 +7,11 @@ function daftar($data)
 {
     global $conn;
 
-    $username = stripslashes($data["username"]);
+    $email = stripslashes($data["email"]);
     $password = mysqli_real_escape_string($conn, $data["password"]);
 
     // cek user sudah ada atau belum
-    $result = mysqli_query($conn, "SELECT username FROM tb_user WHERE username = '$username'");
+    $result = mysqli_query($conn, "SELECT email FROM tb_user WHERE email = '$email'");
 
     if (mysqli_fetch_assoc($result)) {
         echo "<script>
@@ -25,7 +25,7 @@ function daftar($data)
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     // tambahkan userbaru ke database
-    mysqli_query($conn, "INSERT INTO tb_user VALUES ('','$username','$password','','','','')");
+    mysqli_query($conn, "INSERT INTO tb_user VALUES ('','$email','','$password','','','')");
 
     return mysqli_affected_rows($conn);
 }
